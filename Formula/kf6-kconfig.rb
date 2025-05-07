@@ -4,7 +4,7 @@
 class Kf6Kconfig < Formula
   desc ""
   homepage ""
-  url "https://download.kde.org/stable/frameworks/6.14.0/src/kf6-kconfig-6.14.0.tar.xz"
+  url "https://download.kde.org/stable/frameworks/6.14.0/src/kconfig-6.14.0.tar.xz"
   sha256 "e0efff427b2155b09784851fa1645511ffb93629e557e887ec5dacff2fe223a0"
   license ""
 
@@ -18,8 +18,8 @@ class Kf6Kconfig < Formula
 
   # Additional dependency
   # resource "" do
-  #   url ""
-  #   sha256 ""
+  #   url "https://download.kde.org/stable/frameworks/6.14.0/src/kconfig-6.14.0.tar.xz"
+  #   sha256 "e0efff427b2155b09784851fa1645511ffb93629e557e887ec5dacff2fe223a0"
   # end
 
   def install
